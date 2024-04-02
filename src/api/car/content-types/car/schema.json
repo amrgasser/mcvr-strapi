@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cars",
+  "info": {
+    "singularName": "car",
+    "pluralName": "cars",
+    "displayName": "Cars",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Power": {
+      "type": "integer"
+    },
+    "seats": {
+      "type": "integer"
+    },
+    "transmission": {
+      "type": "enumeration",
+      "enum": [
+        "Auto",
+        "Manual"
+      ]
+    },
+    "fuel_economy": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

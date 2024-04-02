@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_home_hero_hereos",
+  "info": {
+    "displayName": "hereo",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "bg_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Title": {
+      "type": "string"
+    }
+  }
+}

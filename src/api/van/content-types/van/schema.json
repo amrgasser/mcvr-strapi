@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vans",
+  "info": {
+    "singularName": "van",
+    "pluralName": "vans",
+    "displayName": "Van",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "height": {
+      "type": "decimal"
+    },
+    "width": {
+      "type": "decimal"
+    },
+    "length": {
+      "type": "decimal"
+    },
+    "capacity": {
+      "type": "integer"
+    },
+    "load": {
+      "type": "integer"
+    },
+    "gas": {
+      "type": "enumeration",
+      "enum": [
+        "Diesel",
+        "Petrol"
+      ]
+    },
+    "transmission": {
+      "type": "enumeration",
+      "enum": [
+        "Auto",
+        "Manual"
+      ]
+    },
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_home_vehicle_selection_vehicle_selections",
+  "info": {
+    "displayName": "vehicle_selection",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "cars": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::car.car"
+    }
+  }
+}

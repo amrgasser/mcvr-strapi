@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_about_paragraphs_paragraphs",
+  "info": {
+    "displayName": "paragraphs",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "body": {
+      "type": "richtext"
+    }
+  }
+}

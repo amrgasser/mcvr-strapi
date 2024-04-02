@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "privaccies",
+  "info": {
+    "singularName": "privaccy",
+    "pluralName": "privaccies",
+    "displayName": "Privacy",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "privacy": {
+      "type": "richtext"
+    }
+  }
+}
